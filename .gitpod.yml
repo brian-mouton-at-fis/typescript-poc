@@ -5,3 +5,4 @@ tasks:
   - name: Install Angular
     init: |
       npm install -g @angular/cli
+      echo "Done"
