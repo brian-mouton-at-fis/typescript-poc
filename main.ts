@@ -1,10 +1,4 @@
-function doSomething() {
+import { Point } from './point';
 
-    for(let i = 0; i < 5; i++)
-        console.log(i);
-
-    console.log("Finally: " + i);
-
-}
-
-doSomething();
+let point = new Point(1, 2);
+point.draw();
