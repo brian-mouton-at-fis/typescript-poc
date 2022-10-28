@@ -2,6 +2,6 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - name: Restore & Build
+  - name: Install Angular
     init: |
       npm install -g @angular/cli
