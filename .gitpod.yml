@@ -5,4 +5,5 @@ tasks:
   - name: Install Angular
     init: |
       npm install -g @angular/cli
+      ng serve --allowed-hosts all
       echo "Done"
