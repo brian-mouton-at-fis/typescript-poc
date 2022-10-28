@@ -4,3 +4,4 @@ image:
 tasks:
   - name: Restore & Build
     init: |
+      npm install -g @angular/cli
